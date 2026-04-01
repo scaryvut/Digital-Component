@@ -11,3 +11,11 @@ Instead of switching between different websites or apps, users can access everyt
 🎨 Tailwind CSS (Modern Styling)
 🧠 JavaScript (Core Logic)
 🔔 React Toastify (User Notifications)
+
+#Three Features about my project
+🧮 Multi-Utility Dashboard
+Access multiple digital tools (calculator, converters, formatters) from a single interface.
+⚡ Instant Real-Time Results
+All tools respond immediately without page reloads, ensuring smooth user experience.
+📱 Fully Responsive Design
+Optimized for mobile, tablet, and desktop for seamless usage anywhere.
