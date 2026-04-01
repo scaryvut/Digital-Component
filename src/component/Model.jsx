@@ -15,7 +15,7 @@ const Model = ({ modelPromise, carts, setCarts }) => {
     };
     return (
         
-        <div className='grid grid-cols-3 gap-5 space-y-5 space-x-6 mr-[200px] ml-[200px]'>
+        <div className='lg:grid grid-cols-3 gap-5 md:grid grid-cols-2 sm:grid grid-cols-1 m-auto gap-5 gap-5 space-y-5 space-x-6 mr-[200px] ml-[200px]'>
             {
                 models.map(model=> <div className='w-[360px] h-[422px] border-2 rounded-xl p-6 shadow space-y-4'>
                     
