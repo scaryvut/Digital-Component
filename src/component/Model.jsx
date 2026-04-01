@@ -1,4 +1,5 @@
 import React, { use, useState } from 'react';
+import { toast } from 'react-toastify';
 
 
 const Model = ({ modelPromise, carts, setCarts }) => {
@@ -6,6 +7,7 @@ const Model = ({ modelPromise, carts, setCarts }) => {
 
     const handleBuy = (model) => {
         const alreadyAdded = carts.find(item => item.id === model.id);
+        toast.success("Added to Cart")
 
         if (!alreadyAdded) {
             setCarts([...carts, model]);
