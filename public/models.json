@@ -13,7 +13,7 @@
       "Export to PDF",
       "AI content suggestions"
     ],
-    "icon": "file-text"
+    "icon": "https://i.ibb.co.com/rRG8Rn5F/design-tool.png"
   },
   {
     "id": 2,
@@ -29,7 +29,7 @@
       "Best time suggestions",
       "Content calendar"
     ],
-    "icon": "calendar"
+    "icon": "https://i.ibb.co.com/wZTnmH9H/operation.png"
   },
   {
     "id": 3,
@@ -45,7 +45,7 @@
       "Image background remover",
       "Export in HD"
     ],
-    "icon": "palette"
+    "icon": "https://i.ibb.co.com/rRG8Rn5F/design-tool.png"
   },
   {
     "id": 4,
@@ -61,7 +61,7 @@
       "SEO optimization",
       "Multiple tone options"
     ],
-    "icon": "edit"
+    "icon": "https://i.ibb.co.com/C3rTqmyd/social-media.png"
   },
   {
     "id": 5,
@@ -77,7 +77,7 @@
       "Client management",
       "PDF export"
     ],
-    "icon": "dollar-sign"
+    "icon": "https://i.ibb.co.com/sp3DRsRx/portfolio.png"
   },
   {
     "id": 6,
@@ -93,7 +93,7 @@
       "Backlink monitoring",
       "Weekly reports"
     ],
-    "icon": "trending-up"
+    "icon": "https://i.ibb.co.com/F1TMV2J/writing-2327400-1.png"
   },
   {
     "id": 7,
@@ -109,7 +109,7 @@
       "Distraction blocker",
       "Goal tracking"
     ],
-    "icon": "clock"
+    "icon": "https://i.ibb.co.com/wZTnmH9H/operation.png"
   },
   {
     "id": 8,
@@ -125,7 +125,7 @@
       "Export as image",
       "Multiple languages"
     ],
-    "icon": "code"
+    "icon": "https://i.ibb.co.com/rRG8Rn5F/design-tool.png"
   },
   {
     "id": 9,
@@ -141,6 +141,6 @@
       "API integration",
       "Real-time validation"
     ],
-    "icon": "mail"
+    "icon": "https://i.ibb.co.com/C3rTqmyd/social-media.png"
   }
 ]
