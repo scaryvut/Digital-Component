@@ -29,7 +29,9 @@ function App() {
   toast.success("Checkout successful!");
   setCarts([]);
 };
-
+const isInCart = (id) => {
+  return carts.some(item => item.id === id);
+};
   return (
     <>
     <Navbar carts={carts}></Navbar>
@@ -43,14 +45,33 @@ function App() {
                 <p className='text-gray-500'>to boost your productivity and creativity.</p>
             </div>
 
-            <div className='space-x-3 mt-6'>
-                <button onClick={()=>setActiveTab("model")} className='btn bg-gradient-to-r from-indigo-600 to-purple-500 text-white rounded-full'>Product</button>
-                <button onClick={()=>setActiveTab("cart")} className='btn bg-white text-black rounded-full'>Cart({carts.length})</button>
-            </div>
-            
+              <div className='space-x-3 mt-6'>
+                <button
+                  onClick={() => setActiveTab("model")}
+                  className={`btn rounded-full ${
+                    activeTab === "model"
+                      ? "bg-gradient-to-r from-indigo-600 to-purple-500 text-white"
+                      : "bg-white text-black"
+                  }`}
+                >
+                  Product
+                </button>
+
+                <button
+                  onClick={() => setActiveTab("cart")}
+                  className={`btn rounded-full ${
+                    activeTab === "cart"
+                      ? "bg-gradient-to-r from-indigo-600 to-purple-500 text-white"
+                      : "bg-white text-black"
+                  }`}
+                >
+                  Cart({carts.length})
+                </button>
+              </div>
+                          
         </div>
         <Suspense fallback="Loading">
-           {activeTab==="model" &&<Model modelPromise={modelPromise} carts={carts} setCarts={setCarts}></Model>}
+           {activeTab==="model" &&<Model modelPromise={modelPromise} carts={carts} setCarts={setCarts}isInCart={isInCart}></Model>}
         </Suspense>
    
     {activeTab==="cart" && <Cart carts={carts} setCarts={setCarts} handleCheckout={handleCheckout} />}
