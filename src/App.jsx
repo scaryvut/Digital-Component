@@ -38,38 +38,44 @@ const isInCart = (id) => {
     <Banner></Banner>
     <Rating></Rating>
     
-            <div className='w-[1200px] h-[196px] mt-[120px] text-center m-auto space-y-6'>
-            <h1 className='text-4xl font-bold'>Premium Digital Tools</h1>
-            <div>
-                <p className='text-gray-400'>Choose from our curated collection of premium digital products designed</p>
-                <p className='text-gray-500'>to boost your productivity and creativity.</p>
-            </div>
+        <div className='max-w-6xl px-4 sm:px-6 lg:px-8 mx-auto mt-16 sm:mt-20 lg:mt-28 text-center space-y-4 sm:space-y-6'>
+  <h1 className='text-2xl sm:text-3xl lg:text-4xl font-bold'>
+    Premium Digital Tools
+  </h1>
 
-              <div className='space-x-3 mt-6'>
-                <button
-                  onClick={() => setActiveTab("model")}
-                  className={`btn rounded-full ${
-                    activeTab === "model"
-                      ? "bg-gradient-to-r from-indigo-600 to-purple-500 text-white"
-                      : "bg-white text-black"
-                  }`}
-                >
-                  Product
-                </button>
+  <div>
+    <p className='text-sm sm:text-base text-gray-400'>
+      Choose from our curated collection of premium digital products designed
+    </p>
+    <p className='text-sm sm:text-base text-gray-500'>
+      to boost your productivity and creativity.
+    </p>
+  </div>
 
-                <button
-                  onClick={() => setActiveTab("cart")}
-                  className={`btn rounded-full ${
-                    activeTab === "cart"
-                      ? "bg-gradient-to-r from-indigo-600 to-purple-500 text-white"
-                      : "bg-white text-black"
-                  }`}
-                >
-                  Cart({carts.length})
-                </button>
-              </div>
-                          
-        </div>
+  <div className='flex flex-col sm:flex-row gap-3 justify-center mt-6'>
+    <button
+      onClick={() => setActiveTab("model")}
+      className={`btn rounded-full ${
+        activeTab === "model"
+          ? "bg-gradient-to-r from-indigo-600 to-purple-500 text-white"
+          : "bg-white text-black"
+      }`}
+    >
+      Product
+    </button>
+
+    <button
+      onClick={() => setActiveTab("cart")}
+      className={`btn rounded-full ${
+        activeTab === "cart"
+          ? "bg-gradient-to-r from-indigo-600 to-purple-500 text-white"
+          : "bg-white text-black"
+      }`}
+    >
+      Cart({carts.length})
+    </button>
+  </div>
+</div>
         <Suspense fallback="Loading">
            {activeTab==="model" &&<Model modelPromise={modelPromise} carts={carts} setCarts={setCarts}isInCart={isInCart}></Model>}
         </Suspense>

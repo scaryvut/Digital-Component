@@ -5,53 +5,76 @@ import imgFive from '../assets/rocket.png'
 
 const Step = () => {
     return (
-        <div className='bg-gray-200 mt-[120px] w-auto pt-[120px] pb-[120px] pl-[200px] pr-[200px]'>
-            <div className=' text-center justify-center items-center space-y-4 p-[40px]'>
-                <h1 className='text-4xl font-bold'>Get Started in 3 Steps</h1>
-                <p>Start using premium digital tools in minutes, not hours.</p>
-            </div>
-
-            <div className='flex justify-between gap-5'>
-                <div className='w-[380px] h-[380px] bg-white rounded-2xl text-center justify-center items-center space-y-6 p-[24px]'>
-                     <div className='flex justify-end'>
-                     <p className='w-[40px] h-[40px] bg-gradient-to-r from-indigo-600 to-purple-500 rounded-full text-white p-2 justify-end'>01</p>
-                     </div>
-                     <div className='flex justify-center items-center gap-y-7'>
-                        <img src={imgThree} alt="" />
-                     </div>
-                    
-                    <h3 className='font-bold'>Create Account</h3>
-                    <p>Sign up for free in seconds. No credit card required to get started.</p>
-
-                </div>
-
-                <div className='w-[380px] h-[380px] bg-white rounded-2xl text-center justify-center items-center space-y-6 p-[24px]'>
-                     <div className='flex justify-end'>
-                     <p className='w-[40px] h-[40px] bg-gradient-to-r from-indigo-600 to-purple-500 rounded-full text-white p-2 justify-end'>02</p>
-                     </div>
-                     <div className='flex justify-center items-center gap-y-7'>
-                        <img src={imgFour} alt="" />
-                     </div>
-                    
-                    <h3 className='font-bold'>Choose Products</h3>
-                    <p>Browse our catalog and select the tools that fit your needs.</p>
-
-                </div>
-
-                <div className='w-[380px] h-[380px] bg-white rounded-2xl text-center justify-center items-center space-y-6 p-[24px]'>
-                     <div className='flex justify-end'>
-                     <p className='w-[40px] h-[40px] bg-gradient-to-r from-indigo-600 to-purple-500 rounded-full text-white p-2 justify-end'>03</p>
-                     </div>
-                     <div className='flex justify-center items-center gap-y-7'>
-                        <img src={imgFive} alt="" />
-                     </div>
-                    
-                    <h3 className='font-bold'>Start Creating</h3>
-                    <p>Download and start using your premium tools immediately.</p>
-
-                </div>
-            </div>
+        <div className='bg-gray-200 mt-20 py-16 px-4 sm:px-8 lg:px-20'>
             
+            
+            <div className='text-center space-y-4 max-w-2xl mx-auto mb-12'>
+                <h1 className='text-2xl sm:text-3xl lg:text-4xl font-bold'>
+                    Get Started in 3 Steps
+                </h1>
+                <p className='text-gray-600'>
+                    Start using premium digital tools in minutes, not hours.
+                </p>
+            </div>
+
+            
+            <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6'>
+                
+                
+                <div className='bg-white rounded-2xl text-center space-y-6 p-6 shadow-sm hover:shadow-md transition'>
+                    <div className='flex justify-end'>
+                        <p className='w-10 h-10 flex items-center justify-center bg-gradient-to-r from-indigo-600 to-purple-500 rounded-full text-white'>
+                            01
+                        </p>
+                    </div>
+
+                    <div className='flex justify-center'>
+                        <img src={imgThree} alt="Create Account" className='w-16 h-16'/>
+                    </div>
+
+                    <h3 className='font-bold text-lg'>Create Account</h3>
+                    <p className='text-gray-600 text-sm'>
+                        Sign up for free in seconds. No credit card required.
+                    </p>
+                </div>
+
+                
+                <div className='bg-white rounded-2xl text-center space-y-6 p-6 shadow-sm hover:shadow-md transition'>
+                    <div className='flex justify-end'>
+                        <p className='w-10 h-10 flex items-center justify-center bg-gradient-to-r from-indigo-600 to-purple-500 rounded-full text-white'>
+                            02
+                        </p>
+                    </div>
+
+                    <div className='flex justify-center'>
+                        <img src={imgFour} alt="Choose Products" className='w-16 h-16'/>
+                    </div>
+
+                    <h3 className='font-bold text-lg'>Choose Products</h3>
+                    <p className='text-gray-600 text-sm'>
+                        Browse our catalog and select tools that fit your needs.
+                    </p>
+                </div>
+
+                
+                <div className='bg-white rounded-2xl text-center space-y-6 p-6 shadow-sm hover:shadow-md transition'>
+                    <div className='flex justify-end'>
+                        <p className='w-10 h-10 flex items-center justify-center bg-gradient-to-r from-indigo-600 to-purple-500 rounded-full text-white'>
+                            03
+                        </p>
+                    </div>
+
+                    <div className='flex justify-center'>
+                        <img src={imgFive} alt="Start Creating" className='w-16 h-16'/>
+                    </div>
+
+                    <h3 className='font-bold text-lg'>Start Creating</h3>
+                    <p className='text-gray-600 text-sm'>
+                        Download and start using your tools immediately.
+                    </p>
+                </div>
+
+            </div>
         </div>
     );
 };
