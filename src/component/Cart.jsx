@@ -27,16 +27,21 @@ const Cart = ({ carts, setCarts, handleCheckout }) => {
                             key={item.id}
                             className='flex flex-col sm:flex-row sm:items-center justify-between border p-4 mb-3 rounded gap-3'
                         >
+                             <div className='flex gap-3 justify-center items-center'>
+                                           <div>
+                                <img src={item.icon} alt="" />
+                            </div>
                             <div>
                                 <h2 className='text-lg sm:text-xl font-semibold'>
                                     {item.name}
                                 </h2>
                                 <p className='text-gray-600'>${item.price}</p>
                             </div>
+                             </div>
 
                             <button 
                                 onClick={() => handleDelete(item.id)} 
-                                className='text-red-500 border border-red-500 px-3 py-1 rounded hover:bg-red-500 hover:text-white transition'
+                                className='text-red-500 px-3 py-1 rounded hover:bg-red-500 hover:text-white transition'
                             >
                                 Remove
                             </button>
