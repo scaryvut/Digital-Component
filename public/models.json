@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "name": "ResumePro AI",
+    "description": "AI-powered resume builder optimized for ATS systems and recruiter visibility.",
+    "price": 9,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "100+ templates",
+      "ATS optimization",
+      "Export to PDF",
+      "AI content suggestions"
+    ],
+    "icon": "file-text"
+  },
+  {
+    "id": 2,
+    "name": "SocialBoost Scheduler",
+    "description": "Automate and optimize your social media posting across multiple platforms.",
+    "price": 12,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Multi-platform scheduling",
+      "Analytics dashboard",
+      "Best time suggestions",
+      "Content calendar"
+    ],
+    "icon": "calendar"
+  },
+  {
+    "id": 3,
+    "name": "Designify Studio",
+    "description": "Drag-and-drop design tool for creating stunning visuals without design skills.",
+    "price": 0,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "500+ templates",
+      "Brand kit",
+      "Image background remover",
+      "Export in HD"
+    ],
+    "icon": "palette"
+  },
+  {
+    "id": 4,
+    "name": "CopyGenius AI",
+    "description": "Generate high-converting marketing copy in seconds using AI.",
+    "price": 15,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Ad copy generator",
+      "Email templates",
+      "SEO optimization",
+      "Multiple tone options"
+    ],
+    "icon": "edit"
+  },
+  {
+    "id": 5,
+    "name": "InvoiceMate",
+    "description": "Simple and powerful invoicing tool for freelancers and small businesses.",
+    "price": 29,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "Custom invoices",
+      "Payment tracking",
+      "Client management",
+      "PDF export"
+    ],
+    "icon": "dollar-sign"
+  },
+  {
+    "id": 6,
+    "name": "SEO Rank Tracker",
+    "description": "Track your website rankings and optimize your SEO strategy effectively.",
+    "price": 19,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Keyword tracking",
+      "Competitor analysis",
+      "Backlink monitoring",
+      "Weekly reports"
+    ],
+    "icon": "trending-up"
+  },
+  {
+    "id": 7,
+    "name": "FocusFlow Timer",
+    "description": "Boost productivity using Pomodoro-based focus sessions and tracking.",
+    "price": 5,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "Pomodoro timer",
+      "Session analytics",
+      "Distraction blocker",
+      "Goal tracking"
+    ],
+    "icon": "clock"
+  },
+  {
+    "id": 8,
+    "name": "CodeSnap Generator",
+    "description": "Create beautiful code snippets for sharing on social media.",
+    "price": 10,
+    "period": "one-time",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Syntax highlighting",
+      "Custom themes",
+      "Export as image",
+      "Multiple languages"
+    ],
+    "icon": "code"
+  },
+  {
+    "id": 9,
+    "name": "EmailVerify Pro",
+    "description": "Clean and verify email lists to improve deliverability and reduce bounce rates.",
+    "price": 25,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "Bulk email verification",
+      "Spam trap detection",
+      "API integration",
+      "Real-time validation"
+    ],
+    "icon": "mail"
+  }
+]
